@@ -1,28 +1,30 @@
 // import eight from '../assets/svg/projects/eight.svg'
 // import seven from '../assets/svg/projects/seven.svg'
 // import six from '../assets/svg/projects/six.svg'
-import face from '../assets/png/face.jpg'
-import land from '../assets/png/land.jpg'
+// import face from '../assets/png/face.jpg'
+// import land from '../assets/png/land.jpg'
 import handloom from '../assets/png/handloom.jpg'
+import Votingapp from '../assets/png/Votingapp.png'
+import campushub from '../assets/png/campushub.png'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'SecureAccess Advanced Multilayer Authentication',
-        projectDesc: 'A cutting-edge authentication platform that enhances security through facial and gesture recognition technologies.',
-        tags: ['React', 'OpenCV', 'Flask'],
+        projectName: 'Voting App',
+        projectDesc: 'A secure web-based platform for conducting college elections, allowing students to log in, view candidates, and cast their votes online.',
+        tags: ['React', 'JavaScript', 'CSS', 'HTML'],
         code: 'https://github.com/srinivaspavan73/Secure-Access',
         demo: 'https://github.com/srinivaspavan73/Secure-Access',
-        image: face
+        image: Votingapp
     },
     {
         id: 2,
-        projectName: 'LandLink: Nationwide Online Land Marketplace',
-        projectDesc: 'Revolutionizing land transactions with an online marketplace for buying and selling land properties across all states seamlessly.',
-        tags: ['React', 'MongoDB'],
+        projectName: 'CampusHub',
+        projectDesc: 'A web application that enables users to log in, browse and register for events, and collaborate on campus projects.',
+        tags: ['React', 'Node', 'Express', 'SQL', 'JavaScript'],
         code: 'https://github.com/srinivaspavan73/Landlink',
         demo: 'https://github.com/srinivaspavan73/Landlink',
-        image: land
+        image: campushub
     },
     {
         id: 3,

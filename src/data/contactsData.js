@@ -6,6 +6,7 @@ export const contactsData = {
     facebook: 'https://www.facebook.com/bitra.pavan.351',
     linkedIn: 'https://www.linkedin.com/in/bitrapavankumar/',
     twitter: 'https://twitter.com/srinivaspavan73',
+    instagram: 'https://www.instagram.com/srinivaspavan73/',
     // medium: 'https://medium.com/@abusaid-bd',
     // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
     devUsername: "Bitra"

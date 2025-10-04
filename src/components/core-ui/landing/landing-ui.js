@@ -6,7 +6,7 @@ import { headerData } from '../../../data/headerData';
 import './landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaInstagram
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
@@ -60,7 +60,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 />
                             </a>
                         )}
-                        {contactsData.facebook && (
+                        {/* {contactsData.facebook && (
                             <a
                                 href={contactsData.facebook}
                                 target='_blank'
@@ -72,7 +72,16 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     aria-label='facebook'
                                 />
                             </a>
-                        )}
+                        )} */}
+                        {contactsData.instagram && (
+    <a href={contactsData.instagram} target='_blank' rel='noreferrer'>
+        <FaInstagram
+            className='landing--social instagram-icon'
+            style={{ color: theme.primary }}
+            aria-label='instagram'
+        />
+    </a>
+)}
                     </div>
                 </div>
                 <img
