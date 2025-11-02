@@ -4,37 +4,40 @@
 // import face from '../assets/png/face.jpg'
 // import land from '../assets/png/land.jpg'
 import handloom from '../assets/png/handloom.jpg'
-import Votingapp from '../assets/png/Votingapp.png'
-import campushub from '../assets/png/campushub.png'
+import whatsapp from '../assets/png/whatsapp.jpeg'
+import coconut from '../assets/png/coconut.png'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Voting App',
-        projectDesc: 'A secure web-based platform for conducting college elections, allowing students to log in, view candidates, and cast their votes online.',
-        tags: ['React', 'JavaScript', 'CSS', 'HTML'],
+        projectName: 'Automated Whats App Bulk Messages',
+        projectDesc: 'A Python automation tool for sending bulk WhatsApp messages using contact data stored in Excel. It uses browser automation to interact with WhatsApp Web, enabling efficient and personalized communication for campaigns and outreach.',
+
+
+        tags: ['Python'],
         code: 'https://github.com/srinivaspavan73/Secure-Access',
         demo: 'https://github.com/srinivaspavan73/Secure-Access',
-        image: Votingapp
+        image: whatsapp
     },
     {
         id: 2,
-        projectName: 'CampusHub',
-        projectDesc: 'A web application that enables users to log in, browse and register for events, and collaborate on campus projects.',
-        tags: ['React', 'Node', 'Express', 'SQL', 'JavaScript'],
+        projectName: 'Coconut Tree Disease Prediction Using AI ',
+        projectDesc: 'Coconut Tree Disease Prediction Using AI is a web-based tool that uses a Convolutional Neural Network (CNN) to analyze leaf images and detect signs of disease. Users can upload photos, and the system provides real-time predictions based on visual symptoms like spots and discoloration, helping farmers take timely action to protect crop health.',
+
+        tags: ['HTML','CSS','Python', 'JavaScript'],
         code: 'https://github.com/srinivaspavan73/Landlink',
         demo: 'https://github.com/srinivaspavan73/Landlink',
-        image: campushub
+        image: coconut
     },
-    {
-        id: 3,
-        projectName: 'WeaveQuest: Exclusive Handloom Saree Marketplace',
-        projectDesc: 'A dedicated online platform celebrating the tradition of handloom sarees, connecting artisans and enthusiasts in a vibrant marketplace.',
-        tags: ['React', 'CSS' , 'HTML'],
-        code: 'https://github.com/srinivaspavan73/Weaver-s-Loom',
-        demo: 'https://weavers-loom.netlify.app/',
-        image: handloom
-    }
+   // {
+       // id: 3,
+        //projectName: 'WeaveQuest: Exclusive Handloom Saree Marketplace',
+        //projectDesc: 'A dedicated online platform celebrating the tradition of handloom sarees, connecting artisans and enthusiasts in a vibrant marketplace.',
+        //tags: ['React', 'CSS' , 'HTML'],
+        //code: 'https://github.com/srinivaspavan73/Weaver-s-Loom',
+       // demo: 'https://weavers-loom.netlify.app/',
+        //image: handloom
+    //}
 ]
 
 

@@ -19,9 +19,12 @@ export const skillsData = [
     'Numpy',
     'Python',
     'C',
+    'Java',
+    'DSA with Java',
+    'Tensorflow',
     // 'PostgreSQL',
     // 'MaterialUI',
-    'Firebase'
+    //'Firebase'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
