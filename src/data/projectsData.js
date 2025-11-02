@@ -3,7 +3,7 @@
 // import six from '../assets/svg/projects/six.svg'
 // import face from '../assets/png/face.jpg'
 // import land from '../assets/png/land.jpg'
-import handloom from '../assets/png/handloom.jpg'
+//import handloom from '../assets/png/handloom.jpg'
 import whatsapp from '../assets/png/whatsapp.jpeg'
 import coconut from '../assets/png/coconut.png'
 
